@@ -661,9 +661,9 @@ Wire Wire Line
 Wire Wire Line
 	7925 13500 8225 13500
 Wire Wire Line
-	7575 14100 7925 14100
-Wire Wire Line
 	7575 14100 7225 14100
+Wire Wire Line
+	7575 14100 7925 14100
 Wire Notes Line width 20
 	13850 7875 13850 7525
 Wire Notes Line

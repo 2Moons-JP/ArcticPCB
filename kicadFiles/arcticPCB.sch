@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -12,11 +12,6 @@ Comment1 "Acheron 40-SM-O-MX-TH-WI codename SharkPCB"
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 Connection ~ 1475 2675
 Connection ~ 1475 3650
@@ -1493,7 +1488,7 @@ F 3 "" H 19675 9450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small RSH1
+L arcticPCB-rescue:R_Small-Device RSH1
 U 1 1 5D5416FE
 P 3750 13100
 F 0 "RSH1" H 3809 13131 31  0000 L CNN
@@ -1504,7 +1499,7 @@ F 3 "~" H 3750 13100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RCC2
+L arcticPCB-rescue:R_Small-Device RCC2
 U 1 1 5D726BAA
 P 4800 10800
 F 0 "RCC2" V 4725 10800 31  0000 C CNN
@@ -1515,7 +1510,7 @@ F 3 "~" H 4800 10800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small RCC1
+L arcticPCB-rescue:R_Small-Device RCC1
 U 1 1 5DAD119A
 P 4800 11000
 F 0 "RCC1" V 4725 11000 31  0000 C CNN
@@ -1526,7 +1521,7 @@ F 3 "~" H 4800 11000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small RRST1
+L arcticPCB-rescue:R_Small-Device RRST1
 U 1 1 5E07225E
 P 7625 11600
 F 0 "RRST1" V 7550 11525 31  0000 L CNN
@@ -1537,7 +1532,7 @@ F 3 "~" H 7625 11600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RSH2
+L arcticPCB-rescue:R_Small-Device RSH2
 U 1 1 5D45B6A0
 P 10800 10650
 F 0 "RSH2" H 10859 10681 31  0000 L CNN
@@ -1548,7 +1543,7 @@ F 3 "~" H 10800 10650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse_Small F1
+L arcticPCB-rescue:Polyfuse_Small-Device F1
 U 1 1 5ECE83A7
 P 6625 13500
 F 0 "F1" V 6420 13500 50  0000 C CNN
@@ -1559,7 +1554,7 @@ F 3 "~" H 6625 13500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole L2
+L arcticPCB-rescue:MountingHole-Mechanical L2
 U 1 1 5C66B5D5
 P 1050 7625
 F 0 "L2" H 1150 7671 50  0000 L CNN
@@ -1570,7 +1565,7 @@ F 3 "~" H 1050 7625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole L1
+L arcticPCB-rescue:MountingHole-Mechanical L1
 U 1 1 5D3B6D2E
 P 1050 7925
 F 0 "L1" H 1150 7971 50  0000 L CNN
@@ -1581,7 +1576,7 @@ F 3 "~" H 1050 7925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole L3
+L arcticPCB-rescue:MountingHole-Mechanical L3
 U 1 1 5D430F2E
 P 1050 8200
 F 0 "L3" H 1150 8246 50  0000 L CNN
@@ -1592,7 +1587,7 @@ F 3 "~" H 1050 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole L4
+L arcticPCB-rescue:MountingHole-Mechanical L4
 U 1 1 5D8978A5
 P 1050 8475
 F 0 "L4" H 1150 8521 50  0000 L CNN
@@ -1603,7 +1598,7 @@ F 3 "~" H 1050 8475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole L5
+L arcticPCB-rescue:MountingHole-Mechanical L5
 U 1 1 5D8978AB
 P 1050 8750
 F 0 "L5" H 1150 8796 50  0000 L CNN
@@ -1614,7 +1609,7 @@ F 3 "~" H 1050 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L arcticPCB-rescue:MountingHole-Mechanical H1
 U 1 1 5D878439
 P 1200 9850
 F 0 "H1" H 1300 9896 50  0000 L CNN
@@ -1625,7 +1620,7 @@ F 3 "~" H 1200 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L arcticPCB-rescue:MountingHole-Mechanical H2
 U 1 1 5D878CA4
 P 1200 10100
 F 0 "H2" H 1300 10146 50  0000 L CNN
@@ -1636,7 +1631,7 @@ F 3 "~" H 1200 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L arcticPCB-rescue:MountingHole-Mechanical H3
 U 1 1 5D8862CE
 P 1200 10350
 F 0 "H3" H 1300 10396 50  0000 L CNN
@@ -1647,7 +1642,7 @@ F 3 "~" H 1200 10350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L arcticPCB-rescue:MountingHole-Mechanical H4
 U 1 1 5D8866EC
 P 1200 10600
 F 0 "H4" H 1300 10646 50  0000 L CNN
@@ -1658,7 +1653,7 @@ F 3 "~" H 1200 10600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
+L arcticPCB-rescue:MountingHole-Mechanical H5
 U 1 1 5D886A2F
 P 1200 10850
 F 0 "H5" H 1300 10896 50  0000 L CNN
@@ -1669,7 +1664,7 @@ F 3 "~" H 1200 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H6
+L arcticPCB-rescue:MountingHole-Mechanical H6
 U 1 1 5D9357B9
 P 1200 11100
 F 0 "H6" H 1300 11146 50  0000 L CNN
@@ -1680,7 +1675,7 @@ F 3 "~" H 1200 11100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H7
+L arcticPCB-rescue:MountingHole-Mechanical H7
 U 1 1 5E63D297
 P 1200 11350
 F 0 "H7" H 1300 11396 50  0000 L CNN
@@ -1691,7 +1686,7 @@ F 3 "~" H 1200 11350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H9
+L arcticPCB-rescue:MountingHole-Mechanical H9
 U 1 1 5E63D910
 P 1200 11850
 F 0 "H9" H 1300 11896 50  0000 L CNN
@@ -1702,7 +1697,7 @@ F 3 "~" H 1200 11850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H10
+L arcticPCB-rescue:MountingHole-Mechanical H10
 U 1 1 5E64C744
 P 1200 12100
 F 0 "H10" H 1300 12146 50  0000 L CNN
@@ -1713,7 +1708,7 @@ F 3 "~" H 1200 12100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CSH1
+L arcticPCB-rescue:C_Small-Device CSH1
 U 1 1 5D54218D
 P 3625 13100
 F 0 "CSH1" V 3775 13100 31  0000 C CNN
@@ -1724,7 +1719,7 @@ F 3 "~" H 3625 13100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CUSB1
+L arcticPCB-rescue:C_Small-Device CUSB1
 U 1 1 5E01896F
 P 4125 7975
 F 0 "CUSB1" V 4025 7975 31  0000 C CNN
@@ -1735,7 +1730,7 @@ F 3 "~" H 4125 7975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small CSI1
+L arcticPCB-rescue:C_Small-Device CSI1
 U 1 1 5C44CEDC
 P 7225 13850
 F 0 "CSI1" V 7325 13850 39  0000 C CNN
@@ -1746,7 +1741,7 @@ F 3 "~" H 7225 13850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CRST2
+L arcticPCB-rescue:C_Small-Device CRST2
 U 1 1 5E0C1B45
 P 7775 10650
 F 0 "CRST2" H 7975 10600 31  0000 R CNN
@@ -1757,7 +1752,7 @@ F 3 "~" H 7775 10650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CRST1
+L arcticPCB-rescue:C_Small-Device CRST1
 U 1 1 5E072855
 P 7775 11600
 F 0 "CRST1" H 7725 11525 31  0000 R CNN
@@ -1768,7 +1763,7 @@ F 3 "~" H 7775 11600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CSO1
+L arcticPCB-rescue:C_Small-Device CSO1
 U 1 1 5C44DAFA
 P 7925 13875
 F 0 "CSO1" V 8025 13875 39  0000 C CNN
@@ -1779,7 +1774,7 @@ F 3 "~" H 7925 13875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CSH2
+L arcticPCB-rescue:C_Small-Device CSH2
 U 1 1 5D45B6A6
 P 10675 10650
 F 0 "CSH2" V 10825 10650 31  0000 C CNN
@@ -1790,7 +1785,7 @@ F 3 "~" H 10675 10650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CB1
+L arcticPCB-rescue:C_Small-Device CB1
 U 1 1 5E2290BA
 P 15100 11025
 F 0 "CB1" V 15250 11025 31  0000 C CNN
@@ -1801,7 +1796,7 @@ F 3 "~" H 15100 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CB2
+L arcticPCB-rescue:C_Small-Device CB2
 U 1 1 5DBAA682
 P 15350 11025
 F 0 "CB2" V 15500 11025 31  0000 C CNN
@@ -1812,7 +1807,7 @@ F 3 "~" H 15350 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CB7
+L arcticPCB-rescue:C_Small-Device CB7
 U 1 1 5DE73924
 P 15500 9000
 F 0 "CB7" H 15675 8975 31  0000 C CNN
@@ -1823,7 +1818,7 @@ F 3 "~" H 15500 9000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CB8
+L arcticPCB-rescue:C_Small-Device CB8
 U 1 1 5DC916F5
 P 16000 8625
 F 0 "CB8" V 16150 8625 31  0000 C CNN
@@ -1834,7 +1829,7 @@ F 3 "~" H 16000 8625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small CB5
+L arcticPCB-rescue:C_Small-Device CB5
 U 1 1 5ED231C7
 P 18500 12425
 F 0 "CB5" V 18650 12425 31  0000 C CNN
@@ -1845,7 +1840,7 @@ F 3 "~" H 18500 12425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small CB6
+L arcticPCB-rescue:C_Small-Device CB6
 U 1 1 5E3EEF07
 P 18500 12700
 F 0 "CB6" V 18650 12700 31  0000 C CNN
@@ -1856,7 +1851,7 @@ F 3 "~" H 18500 12700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small CB3
+L arcticPCB-rescue:C_Small-Device CB3
 U 1 1 5DC1D2A1
 P 19150 9325
 F 0 "CB3" V 19300 9325 31  0000 C CNN
@@ -1867,7 +1862,7 @@ F 3 "~" H 19150 9325 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CB4
+L arcticPCB-rescue:C_Small-Device CB4
 U 1 1 5E067AA7
 P 19425 9325
 F 0 "CB4" V 19575 9325 31  0000 C CNN
@@ -1878,7 +1873,7 @@ F 3 "~" H 19425 9325 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D D1
+L arcticPCB-rescue:D-Device D1
 U 1 1 5C0AF46E
 P 1975 2175
 F 0 "D1" V 1944 2254 31  0000 L CNN
@@ -1889,7 +1884,7 @@ F 3 "~" H 1975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D15
+L arcticPCB-rescue:D-Device D15
 U 1 1 5E2159E6
 P 1975 3150
 F 0 "D15" V 1944 3229 31  0000 L CNN
@@ -1900,7 +1895,7 @@ F 3 "~" H 1975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D29
+L arcticPCB-rescue:D-Device D29
 U 1 1 5E670983
 P 1975 4125
 F 0 "D29" V 1944 4204 31  0000 L CNN
@@ -1911,7 +1906,7 @@ F 3 "~" H 1975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D42
+L arcticPCB-rescue:D-Device D42
 U 1 1 5E6F3BD0
 P 1975 5100
 F 0 "D42" V 1944 5179 31  0000 L CNN
@@ -1922,7 +1917,7 @@ F 3 "~" H 1975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D54
+L arcticPCB-rescue:D-Device D54
 U 1 1 5E76D2C5
 P 1975 6075
 F 0 "D54" V 1944 6154 31  0000 L CNN
@@ -1933,7 +1928,7 @@ F 3 "~" H 1975 6075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D2
+L arcticPCB-rescue:D-Device D2
 U 1 1 5C0D3AE0
 P 2975 2175
 F 0 "D2" V 2944 2254 31  0000 L CNN
@@ -1944,7 +1939,7 @@ F 3 "~" H 2975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D16
+L arcticPCB-rescue:D-Device D16
 U 1 1 5E236E31
 P 2975 3150
 F 0 "D16" V 2944 3229 31  0000 L CNN
@@ -1955,7 +1950,7 @@ F 3 "~" H 2975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D30
+L arcticPCB-rescue:D-Device D30
 U 1 1 5E670990
 P 2975 4125
 F 0 "D30" V 2944 4204 31  0000 L CNN
@@ -1966,7 +1961,7 @@ F 3 "~" H 2975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D43
+L arcticPCB-rescue:D-Device D43
 U 1 1 5E6F3BDD
 P 2975 5100
 F 0 "D43" V 2944 5179 31  0000 L CNN
@@ -1977,7 +1972,7 @@ F 3 "~" H 2975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D55
+L arcticPCB-rescue:D-Device D55
 U 1 1 5E787F08
 P 2975 6075
 F 0 "D55" V 2944 6154 31  0000 L CNN
@@ -1988,7 +1983,7 @@ F 3 "~" H 2975 6075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D3
+L arcticPCB-rescue:D-Device D3
 U 1 1 5C115BCD
 P 3975 2175
 F 0 "D3" V 3944 2254 31  0000 L CNN
@@ -1999,7 +1994,7 @@ F 3 "~" H 3975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D17
+L arcticPCB-rescue:D-Device D17
 U 1 1 5E236E2B
 P 3975 3150
 F 0 "D17" V 3944 3229 31  0000 L CNN
@@ -2010,7 +2005,7 @@ F 3 "~" H 3975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D31
+L arcticPCB-rescue:D-Device D31
 U 1 1 5E670996
 P 3975 4125
 F 0 "D31" V 3944 4204 31  0000 L CNN
@@ -2021,7 +2016,7 @@ F 3 "~" H 3975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D44
+L arcticPCB-rescue:D-Device D44
 U 1 1 5E6F3BE3
 P 3975 5100
 F 0 "D44" V 3944 5179 31  0000 L CNN
@@ -2032,7 +2027,7 @@ F 3 "~" H 3975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D56
+L arcticPCB-rescue:D-Device D56
 U 1 1 5E7A3ABC
 P 3975 6075
 F 0 "D56" V 3944 6154 31  0000 L CNN
@@ -2043,7 +2038,7 @@ F 3 "~" H 3975 6075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D4
+L arcticPCB-rescue:D-Device D4
 U 1 1 5C115BDE
 P 4975 2175
 F 0 "D4" V 4944 2254 31  0000 L CNN
@@ -2054,7 +2049,7 @@ F 3 "~" H 4975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D18
+L arcticPCB-rescue:D-Device D18
 U 1 1 5E236DFC
 P 4975 3150
 F 0 "D18" V 4944 3229 31  0000 L CNN
@@ -2065,7 +2060,7 @@ F 3 "~" H 4975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D32
+L arcticPCB-rescue:D-Device D32
 U 1 1 5E670A0C
 P 4975 4125
 F 0 "D32" V 4944 4204 31  0000 L CNN
@@ -2076,7 +2071,7 @@ F 3 "~" H 4975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D45
+L arcticPCB-rescue:D-Device D45
 U 1 1 5E6F3C59
 P 4975 5100
 F 0 "D45" V 4944 5179 31  0000 L CNN
@@ -2087,7 +2082,7 @@ F 3 "~" H 4975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D5
+L arcticPCB-rescue:D-Device D5
 U 1 1 5C12DA38
 P 5975 2175
 F 0 "D5" V 5944 2254 31  0000 L CNN
@@ -2098,7 +2093,7 @@ F 3 "~" H 5975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D19
+L arcticPCB-rescue:D-Device D19
 U 1 1 5E236E25
 P 5975 3150
 F 0 "D19" V 5944 3229 31  0000 L CNN
@@ -2109,7 +2104,7 @@ F 3 "~" H 5975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D33
+L arcticPCB-rescue:D-Device D33
 U 1 1 5E670A12
 P 5975 4125
 F 0 "D33" V 5944 4204 31  0000 L CNN
@@ -2120,7 +2115,7 @@ F 3 "~" H 5975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D46
+L arcticPCB-rescue:D-Device D46
 U 1 1 5E6F3C5F
 P 5975 5100
 F 0 "D46" V 5944 5179 31  0000 L CNN
@@ -2131,7 +2126,7 @@ F 3 "~" H 5975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky DF1
+L arcticPCB-rescue:D_Schottky-Device DF1
 U 1 1 5ECEA097
 P 6850 13675
 F 0 "DF1" V 6804 13754 50  0000 L CNN
@@ -2142,7 +2137,7 @@ F 3 "~" H 6850 13675 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D6
+L arcticPCB-rescue:D-Device D6
 U 1 1 5C12DA49
 P 6975 2175
 F 0 "D6" V 6944 2254 31  0000 L CNN
@@ -2153,7 +2148,7 @@ F 3 "~" H 6975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D20
+L arcticPCB-rescue:D-Device D20
 U 1 1 5E236E1F
 P 6975 3150
 F 0 "D20" V 6944 3229 31  0000 L CNN
@@ -2164,7 +2159,7 @@ F 3 "~" H 6975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D34
+L arcticPCB-rescue:D-Device D34
 U 1 1 5E670A4C
 P 6975 4125
 F 0 "D34" V 6944 4204 31  0000 L CNN
@@ -2175,7 +2170,7 @@ F 3 "~" H 6975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D47
+L arcticPCB-rescue:D-Device D47
 U 1 1 5E6F3C8C
 P 6975 5100
 F 0 "D47" V 6944 5179 31  0000 L CNN
@@ -2186,7 +2181,7 @@ F 3 "~" H 6975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D DRST1
+L arcticPCB-rescue:D-Device DRST1
 U 1 1 5E071566
 P 7350 11400
 F 0 "DRST1" V 7319 11479 31  0000 L CNN
@@ -2197,7 +2192,7 @@ F 3 "~" H 7350 11400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D DS1
+L arcticPCB-rescue:D-Device DS1
 U 1 1 5C44EA7A
 P 7575 13025
 F 0 "DS1" V 7544 13104 31  0000 L CNN
@@ -2208,7 +2203,7 @@ F 3 "~" H 7575 13025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D7
+L arcticPCB-rescue:D-Device D7
 U 1 1 5C12DA65
 P 7975 2175
 F 0 "D7" V 7944 2254 31  0000 L CNN
@@ -2219,7 +2214,7 @@ F 3 "~" H 7975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D21
+L arcticPCB-rescue:D-Device D21
 U 1 1 5E236DE2
 P 7975 3150
 F 0 "D21" V 7944 3229 31  0000 L CNN
@@ -2230,7 +2225,7 @@ F 3 "~" H 7975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D35
+L arcticPCB-rescue:D-Device D35
 U 1 1 5E6709C4
 P 7975 4125
 F 0 "D35" V 7944 4204 31  0000 L CNN
@@ -2241,7 +2236,7 @@ F 3 "~" H 7975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D48
+L arcticPCB-rescue:D-Device D48
 U 1 1 5E6F3C11
 P 7975 5100
 F 0 "D48" V 7944 5179 31  0000 L CNN
@@ -2252,7 +2247,7 @@ F 3 "~" H 7975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D57
+L arcticPCB-rescue:D-Device D57
 U 1 1 5E7E350A
 P 7975 6075
 F 0 "D57" V 7944 6154 31  0000 L CNN
@@ -2263,7 +2258,7 @@ F 3 "~" H 7975 6075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D8
+L arcticPCB-rescue:D-Device D8
 U 1 1 5C12DA76
 P 8975 2175
 F 0 "D8" V 8944 2254 31  0000 L CNN
@@ -2274,7 +2269,7 @@ F 3 "~" H 8975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D22
+L arcticPCB-rescue:D-Device D22
 U 1 1 5E236DD4
 P 8975 3150
 F 0 "D22" V 8944 3229 31  0000 L CNN
@@ -2285,7 +2280,7 @@ F 3 "~" H 8975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D36
+L arcticPCB-rescue:D-Device D36
 U 1 1 5E6709D2
 P 8975 4125
 F 0 "D36" V 8944 4204 31  0000 L CNN
@@ -2296,7 +2291,7 @@ F 3 "~" H 8975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D49
+L arcticPCB-rescue:D-Device D49
 U 1 1 5E6F3C1F
 P 8975 5100
 F 0 "D49" V 8944 5179 31  0000 L CNN
@@ -2307,7 +2302,7 @@ F 3 "~" H 8975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D9
+L arcticPCB-rescue:D-Device D9
 U 1 1 5C15A352
 P 9975 2175
 F 0 "D9" V 9944 2254 31  0000 L CNN
@@ -2318,7 +2313,7 @@ F 3 "~" H 9975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D23
+L arcticPCB-rescue:D-Device D23
 U 1 1 5E236DC8
 P 9975 3150
 F 0 "D23" V 9944 3229 31  0000 L CNN
@@ -2329,7 +2324,7 @@ F 3 "~" H 9975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D37
+L arcticPCB-rescue:D-Device D37
 U 1 1 5E6709DE
 P 9975 4125
 F 0 "D37" V 9944 4204 31  0000 L CNN
@@ -2340,7 +2335,7 @@ F 3 "~" H 9975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D50
+L arcticPCB-rescue:D-Device D50
 U 1 1 5E6F3C2B
 P 9975 5100
 F 0 "D50" V 9944 5179 31  0000 L CNN
@@ -2351,7 +2346,7 @@ F 3 "~" H 9975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D DSH1
+L arcticPCB-rescue:D-Device DSH1
 U 1 1 5D48318C
 P 10325 10500
 F 0 "DSH1" V 10294 10579 31  0000 L CNN
@@ -2362,7 +2357,7 @@ F 3 "~" H 10325 10500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D D10
+L arcticPCB-rescue:D-Device D10
 U 1 1 5C15A363
 P 10975 2175
 F 0 "D10" V 10944 2254 31  0000 L CNN
@@ -2373,7 +2368,7 @@ F 3 "~" H 10975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D24
+L arcticPCB-rescue:D-Device D24
 U 1 1 5E236DBA
 P 10975 3150
 F 0 "D24" V 10944 3229 31  0000 L CNN
@@ -2384,7 +2379,7 @@ F 3 "~" H 10975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D38
+L arcticPCB-rescue:D-Device D38
 U 1 1 5E6709EC
 P 10975 4125
 F 0 "D38" V 10944 4204 31  0000 L CNN
@@ -2395,7 +2390,7 @@ F 3 "~" H 10975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D51
+L arcticPCB-rescue:D-Device D51
 U 1 1 5E6F3C39
 P 10975 5100
 F 0 "D51" V 10944 5179 31  0000 L CNN
@@ -2406,7 +2401,7 @@ F 3 "~" H 10975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D58
+L arcticPCB-rescue:D-Device D58
 U 1 1 5E827DA9
 P 10975 6075
 F 0 "D58" V 10944 6154 31  0000 L CNN
@@ -2417,7 +2412,7 @@ F 3 "~" H 10975 6075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D11
+L arcticPCB-rescue:D-Device D11
 U 1 1 5C15A37F
 P 11975 2175
 F 0 "D11" V 11944 2254 31  0000 L CNN
@@ -2428,7 +2423,7 @@ F 3 "~" H 11975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D25
+L arcticPCB-rescue:D-Device D25
 U 1 1 5E236DAE
 P 11975 3150
 F 0 "D25" V 11944 3229 31  0000 L CNN
@@ -2439,7 +2434,7 @@ F 3 "~" H 11975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D39
+L arcticPCB-rescue:D-Device D39
 U 1 1 5E6709F8
 P 11975 4125
 F 0 "D39" V 11944 4204 31  0000 L CNN
@@ -2450,7 +2445,7 @@ F 3 "~" H 11975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D52
+L arcticPCB-rescue:D-Device D52
 U 1 1 5E6F3C45
 P 11975 5100
 F 0 "D52" V 11944 5179 31  0000 L CNN
@@ -2461,7 +2456,7 @@ F 3 "~" H 11975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D59
+L arcticPCB-rescue:D-Device D59
 U 1 1 5E827DB7
 P 11975 6075
 F 0 "D59" V 11944 6154 31  0000 L CNN
@@ -2472,7 +2467,7 @@ F 3 "~" H 11975 6075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D12
+L arcticPCB-rescue:D-Device D12
 U 1 1 5C15A390
 P 12975 2175
 F 0 "D12" V 12944 2254 31  0000 L CNN
@@ -2483,7 +2478,7 @@ F 3 "~" H 12975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D26
+L arcticPCB-rescue:D-Device D26
 U 1 1 5E236DA0
 P 12975 3150
 F 0 "D26" V 12944 3229 31  0000 L CNN
@@ -2494,7 +2489,7 @@ F 3 "~" H 12975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D40
+L arcticPCB-rescue:D-Device D40
 U 1 1 5E670A06
 P 12975 4125
 F 0 "D40" V 12944 4204 31  0000 L CNN
@@ -2505,7 +2500,7 @@ F 3 "~" H 12975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D62
+L arcticPCB-rescue:D-Device D62
 U 1 1 5E8999FD
 P 12975 5100
 F 0 "D62" V 12944 5179 31  0000 L CNN
@@ -2516,7 +2511,7 @@ F 3 "~" H 12975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D60
+L arcticPCB-rescue:D-Device D60
 U 1 1 5E827DC5
 P 12975 6075
 F 0 "D60" V 12944 6154 31  0000 L CNN
@@ -2527,7 +2522,7 @@ F 3 "~" H 12975 6075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D13
+L arcticPCB-rescue:D-Device D13
 U 1 1 5C1B87EA
 P 13975 2175
 F 0 "D13" V 13944 2254 31  0000 L CNN
@@ -2538,7 +2533,7 @@ F 3 "~" H 13975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D27
+L arcticPCB-rescue:D-Device D27
 U 1 1 5E416FCC
 P 13975 3150
 F 0 "D27" V 13944 3229 31  0000 L CNN
@@ -2549,7 +2544,7 @@ F 3 "~" H 13975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D41
+L arcticPCB-rescue:D-Device D41
 U 1 1 5E670A31
 P 13975 4125
 F 0 "D41" V 13944 4204 31  0000 L CNN
@@ -2560,7 +2555,7 @@ F 3 "~" H 13975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D53
+L arcticPCB-rescue:D-Device D53
 U 1 1 5E6F3C53
 P 13975 5100
 F 0 "D53" V 13944 5179 31  0000 L CNN
@@ -2571,7 +2566,7 @@ F 3 "~" H 13975 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D14
+L arcticPCB-rescue:D-Device D14
 U 1 1 5E1F79A7
 P 14975 2175
 F 0 "D14" V 14944 2254 31  0000 L CNN
@@ -2582,7 +2577,7 @@ F 3 "~" H 14975 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D28
+L arcticPCB-rescue:D-Device D28
 U 1 1 5E44A76C
 P 14975 3150
 F 0 "D28" V 14944 3229 31  0000 L CNN
@@ -2593,7 +2588,7 @@ F 3 "~" H 14975 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D65
+L arcticPCB-rescue:D-Device D65
 U 1 1 5E993FC5
 P 14975 4125
 F 0 "D65" V 14944 4204 31  0000 L CNN
@@ -2604,7 +2599,7 @@ F 3 "~" H 14975 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H8
+L arcticPCB-rescue:MountingHole_Pad-Mechanical H8
 U 1 1 5E63D4E1
 P 1250 11600
 F 0 "H8" V 1275 11225 50  0000 R CNN
@@ -2615,7 +2610,7 @@ F 3 "~" H 1250 11600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SWRST1
+L arcticPCB-rescue:SW_Push-Switch SWRST1
 U 1 1 5E070BED
 P 6850 11400
 F 0 "SWRST1" H 6850 11600 31  0000 C CNN
@@ -2626,7 +2621,7 @@ F 3 "" H 6850 11600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:DTC123J QRST1
+L arcticPCB-rescue:DTC123J-Transistor_BJT QRST1
 U 1 1 5D249555
 P 7125 10900
 F 0 "QRST1" V 7450 10900 50  0000 C CNN
@@ -3363,7 +3358,7 @@ F 3 "" H 15000 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x14 J2
+L arcticPCB-rescue:Conn_01x14-Connector_Generic J2
 U 1 1 5DBB9F27
 P 10975 8625
 F 0 "J2" H 11055 8618 50  0000 L CNN
@@ -3374,7 +3369,7 @@ F 3 "~" H 10975 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Protection:USBLC6-2SC6 U2
+L arcticPCB-rescue:USBLC6-2SC6-Power_Protection U2
 U 1 1 5DE4F198
 P 3975 8525
 F 0 "U2" H 3500 9000 50  0000 C CNN
@@ -3385,7 +3380,7 @@ F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 4175 8875 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J3
+L arcticPCB-rescue:Conn_ARM_JTAG_SWD_10-Connector J3
 U 1 1 5D8D65B1
 P 6925 8500
 F 0 "J3" V 6300 8550 50  0000 R CNN
